@@ -1,0 +1,1 @@
+#outline(title: "Figures", target: figure.where(kind: image))

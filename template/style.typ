@@ -17,6 +17,11 @@
   show outline.entry.where(
     level: 1
   ): it => {
+    if it.element.func() != heading {
+      // Keep default style if not a heading.
+      return it
+    }
+    
     v(20pt, weak: true)
     strong(it)
   }

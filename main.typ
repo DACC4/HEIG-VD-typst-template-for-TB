@@ -2,6 +2,7 @@
  Vars
 */
 #let language = "fr"
+#set text(lang: language)
 
 #let studentFirstname = "stuFirstname"
 #let studentLastname = "stuLastname"
@@ -84,7 +85,7 @@
 #include "template/_tables.typ"
 
 /*
- Annexestable
+ Annexes
 */
 #include "chapters/outils.typ"
 

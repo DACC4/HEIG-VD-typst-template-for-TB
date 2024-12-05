@@ -1,35 +1,9 @@
 /*
  Vars
 */
-#let language = "fr"
+#import "vars.typ": *
+
 #set text(lang: language)
-
-#let studentFirstname = "stuFirstname"
-#let studentLastname = "stuLastname"
-
-#let confidential = true
-
-#let TBtitle = "Titre du TB"
-#let TBsubtitle = "Sous-titre"
-#let TByear = "2024"
-#let TBacademicYears = "2023-24"
-
-#let TBdpt = "Département des Technologie de l'information et de la communication (TIC)"
-#let TBfiliere = "Informatique et systèmes de communication"
-#let TBorient = "Sécurité informatique"
-
-#let TBauthor = studentFirstname + " " + studentLastname
-#let TBsupervisor = "Prof. Bli Bla"
-#let TBindustryContact = "Nom"
-#let TBindustryName = "EntrepriseZ"
-#let TBindustryAddress = [
-  Rue XY\
-  1400 Yverdon-les-Bains
-]
-
-#let TBresumePubliable = [
-  Dans ce travail... Ceci est le résumé publiable...
-]
 
 /*
  Includes

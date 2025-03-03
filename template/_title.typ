@@ -1,4 +1,5 @@
 #let _title(TBtitle, TBsubtitle, TBacademicYears, TBdpt, TBfiliere, TBorient, TBauthor, TBsupervisor, TBindustryContact, TBindustryName, TBindustryAddress, confidential) = {
+  set par(leading: 0.55em, spacing: 0.55em, justify: true)
   columns(2, [
     #image("images/logo_heig-vd-2020.svg", width: 40%)
     #colbreak()

@@ -72,12 +72,13 @@
   )
 
   // LaTeX look and feel :)
-  set par(leading: 0.55em, spacing: 0.55em, justify: true)
   set text(font: "New Computer Modern")
   show raw: set text(font: "New Computer Modern Mono")
   show heading: set block(above: 1.4em, below: 1em)
   
   show heading.where(level:1): set text(size: 25pt)
+
+  show link: underline
 
   body
 }

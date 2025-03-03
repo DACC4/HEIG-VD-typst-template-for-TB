@@ -7,8 +7,8 @@
 
 #let TBtitle = "Titre du TB"
 #let TBsubtitle = "Sous-titre"
-#let TByear = "2024"
-#let TBacademicYears = "2023-24"
+#let TByear = "2025"
+#let TBacademicYears = "2024-25"
 
 #let TBdpt = "Département des Technologie de l'information et de la communication (TIC)"
 #let TBfiliere = "Informatique et systèmes de communication"

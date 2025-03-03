@@ -1,2 +1,2 @@
-= Implementation <implementation>
+= Implémentation <implementation>
 #lorem(100)

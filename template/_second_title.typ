@@ -1,6 +1,7 @@
 #import "macros.typ": *
 
 #let _second_title(TBtitle, TBacademicYears, TBdpt, TBfiliere, TBorient, TBauthor, TBsupervisor, TBindustryName, TBresumePubliable) = {
+  set par(leading: 0.55em, spacing: 0.55em, justify: true)
   pagebreak(to: "odd")
   align(right)[
     #TBdpt\

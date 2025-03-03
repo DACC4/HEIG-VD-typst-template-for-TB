@@ -1,3 +1,4 @@
+#set par(leading: 0.55em, spacing: 0.55em, justify: true)
 = Préambule
 
 Ce travail de Bachelor (ci-après TB) est réalisé en fin de cursus d’études, en vue de l’obtention du titre de Bachelor of Science HES-SO en Ingénierie.

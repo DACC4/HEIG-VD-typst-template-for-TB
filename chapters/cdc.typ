@@ -18,13 +18,9 @@
 #lorem(10)
 
 === Déroulement <déroulement>
-Le travail commence le ... et se termine le .... Sur les 16 premières
-semaines, soit du x au y, la charge de travail représente 12h par
-semaine. Les 6 dernières semaines, soit du x au y, ce travail sera
-réalisé à plein temps.
+Le travail commence le ... et se termine le .... Sur les 16 premières semaines, soit du x au y, la charge de travail représente 12h par semaine. Les 6 dernières semaines, soit du x au y, ce travail sera réalisé à plein temps.
 
-Un rendu intermédiaire noté est demandé le x et le rendu final est prévu
-pour le x à 12h00.
+Un rendu intermédiaire noté est demandé le x et le rendu final est prévu pour le x à 12h00.
 
 La défense sera organisée entre le x et le y.
 
@@ -34,10 +30,8 @@ Les délivrables seront les suivants :
   - Une analyse de marché
   - La décision qui découle de l’analyse
   - Spécifications
-  - Les informations du module tel que le fonctionnement et les
-    limitations
+  - Les informations du module tel que le fonctionnement et les limitations
   - Une planification initiale et finale
   - Un mode d’emploi
 + Un module remplissant les objectifs défini au point 2.1.
-+ Un software implémentant les améliorations s’il a été possible de les
-  effectuer.
++ Un software implémentant les améliorations s’il a été possible de les effectuer.

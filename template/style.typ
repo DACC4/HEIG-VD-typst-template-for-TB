@@ -78,7 +78,15 @@
   
   show heading.where(level:1): set text(size: 25pt)
 
+  set table.cell(breakable: false)
+  
   show link: underline
+
+  show raw.where(block: true): block.with(
+    fill: luma(240),
+    inset: 10pt,
+    radius: 4pt,
+  )
 
   body
 }

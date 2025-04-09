@@ -29,6 +29,9 @@
 */
 #include "chapters/cdc.typ"
 
+// Set numbering for content
+#set heading(numbering: "1.1")
+
 /*
  Table of Content
 */
@@ -50,6 +53,9 @@
 #include "chapters/implementation.typ"
 
 #include "chapters/conclusion.typ"
+
+// Remove numbering after content
+#set heading(numbering: none)
 
 /*
  Tables

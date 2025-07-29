@@ -3,6 +3,10 @@
 #let studentFirstname = "stuFirstname"
 #let studentLastname = "stuLastname"
 
+// Use feminine or masculine form in template's text. Example: "La soussignée" or "Le soussigné"
+#let TBfeminineForm = false // for the author
+#let TBsupervisorFeminineForm = false // same, but for the supervisor. Example: "Enseignante responsable"
+
 #let confidential = true
 
 #let TBtitle = "Titre du TB"

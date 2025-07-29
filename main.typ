@@ -17,12 +17,12 @@
  Title and template
 */
 #import "template/_title.typ": *
-#_title(TBtitle, TBsubtitle, TBacademicYears, TBdpt, TBfiliere, TBorient, TBauthor, TBsupervisor, TBindustryContact, TBindustryName, TBindustryAddress, confidential)
+#_title(TBtitle, TBsubtitle, TBacademicYears, TBdpt, TBfiliere, TBorient, TBauthor, TBfeminineForm, TBsupervisor, TBsupervisorFeminineForm, TBindustryContact, TBindustryName, TBindustryAddress, confidential)
 #import "template/_second_title.typ": *
-#_second_title(TBtitle, TBacademicYears, TBdpt, TBfiliere, TBorient, TBauthor, TBsupervisor, TBindustryName, TBresumePubliable)
+#_second_title(TBtitle, TBacademicYears, TBdpt, TBfiliere, TBorient, TBauthor, TBfeminineForm, TBsupervisor, TBsupervisorFeminineForm, TBindustryName, TBresumePubliable)
 #include "template/_preambule.typ"
 #import "template/_authentification.typ": *
-#_authentification(TBauthor)
+#_authentification(TBauthor, TBfeminineForm)
 
 /*
  Cahier des charges

@@ -1,14 +1,14 @@
 #import "macros.typ": *
 
-#let _second_title(TBtitle, TBacademicYears, TBdpt, TBfiliere, TBorient, TBauthor, TBsupervisor, TBindustryName, TBresumePubliable) = {
+#let _second_title(TBtitle, TBacademicYears, TBdpt, TBfiliere, TBorient, TBauthor, TBfeminineForm, TBsupervisor, TBsupervisorFeminineForm, TBindustryName, TBresumePubliable) = {
   set par(leading: 0.55em, spacing: 0.55em, justify: true)
   pagebreak(to: "odd")
   align(right)[
     #TBdpt\
     #TBfiliere\
     #TBorient\
-    Étudiant : #TBauthor\
-    Enseignant responsable : #TBsupervisor\
+    #if TBfeminineForm { "Étudiante" } else { "Étudiant" } : #TBauthor\
+    #if TBsupervisorFeminineForm { "Enseignante" } else { "Enseignant" } responsable : #TBsupervisor\
   ]
 
   v(10%)
@@ -41,7 +41,7 @@
     columns: (40%, 30%, 30%),
     row-gutter: 1em,
     align: bottom,
-    [Étudiant :], [Date et lieu :], [Signature :],
+    [#if TBfeminineForm { "Étudiante" } else { "Étudiant" } :], [Date et lieu :], [Signature :],
     [#TBauthor], [#hr_dotted()], [#hr_dotted()]
   )
   v(2%)
@@ -50,7 +50,7 @@
     columns: (40%, 30%, 30%),
     row-gutter: 1em,
     align: bottom,
-    [Enseignant responsable :], [Date et lieu :], [Signature :],
+    [#if TBsupervisorFeminineForm { "Enseignante" } else { "Enseignant" } responsable :], [Date et lieu :], [Signature :],
     [#TBsupervisor], [#hr_dotted()], [#hr_dotted()]
   )
   v(2%)

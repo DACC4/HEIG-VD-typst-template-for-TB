@@ -1,4 +1,4 @@
-#let _title(TBtitle, TBsubtitle, TBacademicYears, TBdpt, TBfiliere, TBorient, TBauthor, TBsupervisor, TBindustryContact, TBindustryName, TBindustryAddress, confidential) = {
+#let _title(TBtitle, TBsubtitle, TBacademicYears, TBdpt, TBfiliere, TBorient, TBauthor,TBfeminineForm, TBsupervisor, TBsupervisorFeminineForm, TBindustryContact, TBindustryName, TBindustryAddress, confidential) = {
   set par(leading: 0.55em, spacing: 0.55em, justify: true)
   columns(2, [
     #image("images/logo_heig-vd-2020.svg", width: 40%)
@@ -30,8 +30,8 @@
     #table(
       stroke: none,
       columns: (50%, 50%),
-      [*Étudiant*], [*#TBauthor*],
-      [*Enseignant responsable*], [#TBsupervisor],
+      [*#if TBfeminineForm { "Étudiante" } else { "Étudiant" }*], [*#TBauthor*],
+      [*#if TBsupervisorFeminineForm { "Enseignante" } else { "Enseignant" } responsable*], [#TBsupervisor],
       [*Entreprise mandante*], [
         #TBindustryContact \
         #TBindustryName \
